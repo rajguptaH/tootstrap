@@ -1,0 +1,20 @@
+{
+  "name": "@fixelrinnovative/tootstrap",
+  "version": "1.0.0",
+  "description": "tootstrap is jquery plugin designed for creating highly customizable Bootstrap toast notifications. This plugin enables developers to display toast messages with ease and flexibility, offering options for different types, positions, colors, buttons, and callbacks.",
+  "main": "tootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajguptah/tootstrap.git"
+  },
+  "keywords": ["jquery", "toast", "notification","rajguptah","Bootstrap","popup","tootstrap"],
+  "author": "Raj Narayan Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajguptah/tootstrap/issues"
+  },
+  "homepage": "https://github.com/rajguptah/tootstrap#readme"
+}
