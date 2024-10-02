@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tootstrap Toast Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="tootstrap.js"></script>
+</head>
+<body>
+
+    <div id="myDiv"></div>
+    
+    <button id="successBtn">Show Success Toast</button>
+    <button id="errorBtn">Show Error Toast</button>
+    <button id="infoBtn">Show Info Toast</button>
+    <button id="warningBtn">Show Warning Toast</button>
+
+    <script>
+        // Success toast
+        $('#successBtn').click(function() {
+            $("#myDiv").tootstrap({
+                type: 'success',
+                message: 'Data saved successfully!',
+                title: 'Success',
+                position: 'top-right',
+                onOk: function() {
+                    alert('You clicked OK!');
+                }
+            });
+        });
+
+        // Error toast
+        $('#errorBtn').click(function() {
+            $("#myDiv").tootstrap({
+                type: 'error',
+                message: 'Something went wrong!',
+                title: 'Error',
+                position: 'bottom-left',
+                backgroundColor: '#dc3545'
+            });
+        });
+
+        // Info toast
+        $('#infoBtn').click(function() {
+            $("#myDiv").tootstrap({
+                type: 'info',
+                message: 'This is an informational message!',
+                title: 'Info',
+                position: 'bottom-right',
+                backgroundColor: '#17a2b8'
+            });
+        });
+
+        // Warning toast
+        $('#warningBtn').click(function() {
+            $("#myDiv").tootstrap({
+                type: 'warning',
+                message: 'Be careful with this action!',
+                title: 'Warning',
+                position: 'top-left',
+                backgroundColor: '#ffc107'
+            });
+        });
+    </script>
+
+</body>
+</html>
