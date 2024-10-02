@@ -70,4 +70,4 @@ $("#myDiv").tootstrap({
 
 - **Name**: Raj Narayan Gupta
 - **GitHub**: [Github](https://github.com/rajguptah)
-- **Instagram**: [Github](https://instagram.com/raj__rr)
+- **Instagram**: [Instagram](https://instagram.com/raj__rr)
